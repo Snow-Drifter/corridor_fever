@@ -2,7 +2,7 @@
 
 use bevy::{input::common_conditions::input_just_pressed, prelude::*};
 
-use crate::{demo::{center_camera_on_player, level::spawn_level}, Pause, menus::Menu, screens::Screen};
+use crate::{game::{center_camera_on_player, level::spawn_level}, Pause, menus::Menu, screens::Screen};
 
 pub(super) fn plugin(app: &mut App) {
     app.add_systems(
