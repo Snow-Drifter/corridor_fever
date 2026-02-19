@@ -7,6 +7,7 @@ use bevy::prelude::*;
 
 mod animation;
 mod camera;
+pub use camera::center_camera_on_player;
 pub mod level;
 mod movement;
 pub mod player;
